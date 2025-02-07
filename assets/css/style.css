@@ -750,6 +750,11 @@ footer .ftrmnu li span {
   font-weight: 600;
   font-size: 19px;
 }
+@media (max-width: 767px) {
+  .artists-wrapper .spotlight-name {
+    font-size: 18px;
+  }
+}
 .artists-wrapper .spotlight-content {
   font-size: 16px;
   padding: 0 5px;

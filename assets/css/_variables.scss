@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Croissant+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&family=Poppins&family=Young+Serif&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Kanit&family=Julee&family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text:ital@0;1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&display=swap');
+@font-face {
+    font-family: 'gilroy';
+    src: url(../font/gilroy.ttf);
+}
+
+
+$mainheading-font: 'Croissant One', cursive;
+$heading-font: 'Poppins', serif;
+$body-font: 'Nunito Sans', sans-serif;
+$style-font: 'Kaushan Script', cursive;
+$third-font: "Berkshire Swash", serif;
+// $heading-font: 'Kanit', sans-serif;
+$gilroy-font: 'gilroy', 'serif';
+
+$yellow-color: #ec9e43;
+$brand-yellow: #ffc107;
+$second-color: #f39454;
+$third-color: #f07777;
+$light: #fff0e4;
+$pink: #FF788A;
+$yellow: #FFB627;

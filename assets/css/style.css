@@ -39,7 +39,6 @@
 
 .desc-row {
   position: relative;
-  overflow-x: clip;
 }
 .desc-row::before {
   position: absolute;

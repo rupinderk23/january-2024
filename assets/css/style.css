@@ -171,6 +171,10 @@ header h3 {
     font-size: 18px;
   }
 }
+.intro-section span {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
 .intro-section .image-box {
   border-radius: 20px;
   padding: 10px;

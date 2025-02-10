@@ -22,6 +22,7 @@
 }
 .desc-row{
     position: relative;
+    overflow-x: clip;
     &::before{
         position: absolute;
         content: url('../images/left.png');

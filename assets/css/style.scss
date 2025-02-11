@@ -190,26 +190,35 @@ header{
         text-decoration: underline;
     }
 }
+.note-msg{
+    font-size: 20px;
+    line-height: 1.2;
+    font-weight: 600;
+    span{
+        display: block;
+    }
+}
+.cta{
+    border: 2px solid #f07777;
+    color: #f07777;
+    display: inline-block;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 0.5rem 1rem;
+    border-radius: 10px;
+    @media (max-width: 767px) {
+        font-size: 16px;
+        padding: 0.3rem 0.8rem;
+    }
+    &:hover{
+        background-color: #f07777;
+        color: #fff;
+    }
+}
 .colored-row{
     background-color: #ffe8d6;
-    .cta{
-        border: 2px solid #f07777;
-        color: #f07777;
-        display: inline-block;
-        text-decoration: none;
-        font-size: 18px;
-        font-weight: bold;
-        padding: 0.5rem 1rem;
-        border-radius: 10px;
-        @media (max-width: 767px) {
-            font-size: 16px;
-            padding: 0.3rem 0.8rem;
-        }
-        &:hover{
-            background-color: #f07777;
-            color: #fff;
-        }
-    }
+    
 }
 
 .statistics-section{

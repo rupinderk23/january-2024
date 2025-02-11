@@ -230,10 +230,16 @@ header h3 {
   text-decoration: underline;
 }
 
-.colored-row {
-  background-color: #ffe8d6;
+.note-msg {
+  font-size: 20px;
+  line-height: 1.2;
+  font-weight: 600;
 }
-.colored-row .cta {
+.note-msg span {
+  display: block;
+}
+
+.cta {
   border: 2px solid #f07777;
   color: #f07777;
   display: inline-block;
@@ -244,14 +250,18 @@ header h3 {
   border-radius: 10px;
 }
 @media (max-width: 767px) {
-  .colored-row .cta {
+  .cta {
     font-size: 16px;
     padding: 0.3rem 0.8rem;
   }
 }
-.colored-row .cta:hover {
+.cta:hover {
   background-color: #f07777;
   color: #fff;
+}
+
+.colored-row {
+  background-color: #ffe8d6;
 }
 
 .statistics-section {

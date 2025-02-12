@@ -704,6 +704,9 @@ footer{
     .spotlight-name{
         font-weight: 600;
         font-size: 19px;
+        text-decoration: none;
+        color: black;
+        display: block;
         @media (max-width: 767px) {
             font-size: 18px;
         }
@@ -737,6 +740,8 @@ footer{
     background-color: $second-color;
     border-radius: 10px;
     overflow: hidden;
+    display: block;
+    text-decoration: none;
     @media (max-width: 767px) {
         border: 2px solid $second-color;
     }
@@ -785,7 +790,7 @@ footer{
         height: 100px;
         border-bottom: 4px solid #f3c4e8;
         border-left: 4px solid #f3c4e8;
-        position: absolute;
+        position: absolutfdfdfe;
         bottom: -12px;
         left: -12px;
         @media (max-width: 767px) {

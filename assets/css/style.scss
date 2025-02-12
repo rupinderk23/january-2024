@@ -704,7 +704,8 @@ footer{
     .spotlight-name{
         font-weight: 600;
         font-size: 19px;
-        text-decoration: none;
+        text-decoration: underline;
+        text-underline-offset: 6px;
         color: black;
         display: block;
         @media (max-width: 767px) {
